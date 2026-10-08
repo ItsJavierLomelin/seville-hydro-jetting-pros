@@ -472,7 +472,14 @@
           "h": "Drain cleaning around Center Street",
           "ps": [
             "Seville Preservation documents historic buildings on Center Street, including a house at 108 Center Street and buildings near the village center.",
-            "This page covers a historic street area inside Seville. It is not a diagnosis of any building or confirmation of a sewer connection. Give the actual property address when discussing work."
+            "This page covers a historic street area inside Seville. It is not a diagnosis of any building or confirmation of a sewer connection. Give the actual property address when discussing work.",
+            "Use the form to describe the property and symptoms. A professional needs to assess the accessible pipe and confirm the cleaning method; this area page does not establish service availability."
+          ]
+        },
+        {
+          "h": "An older building with later alterations",
+          "ps": [
+            "Historic buildings on Center Street can have a long alteration history. Ask for records of the present drain rather than infer its material from the facade. If an addition has newer fixtures, describe how it connects to the existing building and whether the symptom affects both sections."
           ]
         },
         {
@@ -518,6 +525,10 @@
         {
           "q": "Does local history identify the current pipe?",
           "a": "Seville Preservation documents historic buildings on Center Street, including a house at 108 Center Street and buildings near the village center. It provides context only. Repair records and an inspection are needed for the present connection."
+        },
+        {
+          "q": "What should I clarify about an older building with later alterations?",
+          "a": "Historic buildings on Center Street can have a long alteration history. Ask for records of the present drain rather than infer its material from the facade. If an addition has newer fixtures, describe how it connects to the existing building and whether the symptom affects both sections."
         }
       ],
       "cta": "Request Hydro Jetting near Center Street",
@@ -536,7 +547,14 @@
           "h": "Drain cleaning around West Main Street",
           "ps": [
             "The preservation project describes restoration of a building at 11 West Main Street and illustrates an older house at 62 West Main Street.",
-            "This page covers a historic mixed-use corridor inside Seville. It is not a diagnosis of any building or confirmation of a sewer connection. Give the actual property address when discussing work."
+            "This page covers a historic mixed-use corridor inside Seville. It is not a diagnosis of any building or confirmation of a sewer connection. Give the actual property address when discussing work.",
+            "Use the form to describe the property and symptoms. A professional needs to assess the accessible pipe and confirm the cleaning method; this area page does not establish service availability."
+          ]
+        },
+        {
+          "h": "A former use and a present drain problem",
+          "ps": [
+            "Preservation work on West Main Street provides evidence of the area\u2019s building history, not evidence of a specific drain\u2019s condition. For a property whose use changed, state what the fixtures handle now and whether old branches remain. Current use and camera findings should guide a discussion of grease or other deposits."
           ]
         },
         {
@@ -582,6 +600,10 @@
         {
           "q": "Does local history identify the current pipe?",
           "a": "The preservation project describes restoration of a building at 11 West Main Street and illustrates an older house at 62 West Main Street. It provides context only. Repair records and an inspection are needed for the present connection."
+        },
+        {
+          "q": "What should I clarify about a former use and a present drain problem?",
+          "a": "Preservation work on West Main Street provides evidence of the area\u2019s building history, not evidence of a specific drain\u2019s condition. For a property whose use changed, state what the fixtures handle now and whether old branches remain. Current use and camera findings should guide a discussion of grease or other deposits."
         }
       ],
       "cta": "Request Hydro Jetting near West Main Street",
@@ -600,7 +622,14 @@
           "h": "Drain cleaning around Spring Street",
           "ps": [
             "The preservation project describes a historic bungalow at 10 Spring Street.",
-            "This page covers a small residential street area inside Seville. It is not a diagnosis of any building or confirmation of a sewer connection. Give the actual property address when discussing work."
+            "This page covers a small residential street area inside Seville. It is not a diagnosis of any building or confirmation of a sewer connection. Give the actual property address when discussing work.",
+            "Use the form to describe the property and symptoms. A professional needs to assess the accessible pipe and confirm the cleaning method; this area page does not establish service availability."
+          ]
+        },
+        {
+          "h": "A small-home branch drain",
+          "ps": [
+            "The documented Spring Street bungalow is local context rather than proof that every house has the same plumbing. For a single slow fixture in a small home, explain whether the neighboring bathroom or kitchen remains clear. A short branch obstruction and a problem in the buried connection can call for different access."
           ]
         },
         {
@@ -646,6 +675,10 @@
         {
           "q": "Does local history identify the current pipe?",
           "a": "The preservation project describes a historic bungalow at 10 Spring Street. It provides context only. Repair records and an inspection are needed for the present connection."
+        },
+        {
+          "q": "What should I clarify about a small-home branch drain?",
+          "a": "The documented Spring Street bungalow is local context rather than proof that every house has the same plumbing. For a single slow fixture in a small home, explain whether the neighboring bathroom or kitchen remains clear. A short branch obstruction and a problem in the buried connection can call for different access."
         }
       ],
       "cta": "Request Hydro Jetting near Spring Street",
