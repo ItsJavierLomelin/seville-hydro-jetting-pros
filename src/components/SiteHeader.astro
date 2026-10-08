@@ -25,12 +25,7 @@ import { u } from '../lib/utils';
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-navigation" data-menu-toggle aria-label="Toggle navigation"><svg class="mobile-menu-hamburger" aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18" /></svg><svg class="mobile-menu-x" aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m6 6 12 12M18 6 6 18" /></svg></button>
   </div>
   <nav class="mobile-nav" id="mobile-navigation" aria-label="Mobile navigation" hidden>
-    {navLinks.map((l) => (
-      <>
-        <a class:list={['nav-parent', { 'has-dropdown': 'children' in l }]} href={u(l.href)}>{l.label}{'children' in l && <svg class="nav-chevron" aria-hidden="true" focusable="false" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="m2 4 4 4 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg>}</a>
-        {'children' in l && <div class="mobile-sub">{l.children.map((a) => <a href={u(a.href)}>{a.label}</a>)}</div>}
-      </>
-    ))}
+    {navLinks.map((l) => ('children' in l ? <details class="mobile-dropdown"><summary>{l.label}<svg class="nav-chevron" aria-hidden="true" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="m2 4 4 4 4-4" stroke="currentColor" stroke-width="1.7" /></svg></summary><div class="mobile-sub"><a href={u(l.href)}>All {l.label.toLowerCase()}</a>{l.children.map((a) => <a href={u(a.href)}>{a.label}</a>)}</div></details> : <a href={u(l.href)}>{l.label}</a>))}
     <a class="mobile-phone" href={business.phoneHref}>Call {business.phoneDisplay}</a>
     <a class="mobile-phone" href={u('/contact/')}>Request Service</a>
   </nav>
@@ -64,3 +59,5 @@ button[data-menu-toggle],button[data-menu],button[data-burger],button[data-mobil
 .mobile-nav,.sat-mobile-panel,#mobile-menu,.mobile-panel{max-height:calc(100dvh - 100px);overflow-y:auto;overscroll-behavior:contain}
 @media(max-width:1100px){header:has([aria-expanded="true"]){position:sticky;top:0}}
 </style>
+
+<style is:global>.mobile-dropdown>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px;padding:10px 0;color:inherit;font-weight:600}.mobile-dropdown>summary::-webkit-details-marker{display:none}.mobile-dropdown[open]>summary .nav-chevron{transform:rotate(180deg)}.mobile-nav{padding-bottom:24px!important}</style>
