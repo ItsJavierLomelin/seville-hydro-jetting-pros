@@ -302,3 +302,7 @@ img { max-width:100%; }
 @media(max-width:600px){.fx-circle{display:none!important}}
 
 .dark-band .eyebrow{color:#ffe079!important}
+
+@media(max-width:600px){[data-parallax-stage]>.fx-circle,.hero .fx-circle,.hero-inner .fx-circle,.hero-form-wrap .fx-circle{display:none!important}}
+
+.dark-band .dispatch-card .eyebrow{color:#76600b!important}
