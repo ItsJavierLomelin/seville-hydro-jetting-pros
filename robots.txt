@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://itsjavierlomelin.github.io/seville-hydro-jetting-pros/sitemap.xml
+Sitemap: https://sevillehydrojetting.prosapp.site/sitemap.xml
